@@ -14,7 +14,7 @@ def print_names():
             second_min = curr_val
     print(second_min)
     names = [s[0] for s in students if s[1] == second_min]
-    for name in names.sort()
+    for name in names.sort():
         print(name)
 
 print_names()
